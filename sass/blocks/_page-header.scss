@@ -1,42 +1,117 @@
 @import "../variables";
 @import "../global/mixins";
 
-.page-header {
-  background-color: rgba($midnight, 1);
+//.page-header {
+//  background-color: $whiteSmoke;
+//  //max-width: 1440px;
+//  margin: 0 auto 30px;
+//  display: flex;
+//  flex-wrap: wrap;
+//  align-items: flex-end;
+//  justify-content: space-between;
+//  box-sizing: border-box;
+//}
+//
+//.page-header__text, .page-header__description{
+//  display: flex;
+//  justify-content: flex-start;
+//}
+//
+//.page-header__description{
+//
+//}
+//
+.content__navigation{
+  width: 80%;
+}
+.navigation__nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+
+}
+.navigation-item {
+  list-style: none;
+  flex-basis: 8.44%;
+  max-width: 9.444%;
+
+
 }
 
-.page-header__menu {
-  background-color: rgba($midnight, .3);
-
-  min-height: 66px;
-  padding: 0 20px;
-
-  &::before {
-    content: "";
-    background-image: url("../../img/bg-back-mobile@1x.jpg");
-  }
-
-  &::after {
-    content: "";
-    background-image: url("../../img/iphone-hand-mobile@1x.png");
-  }
-}
-
-.page-header__link {
-  @include embed-font($sans-bold-family, 22px, 22px, $white);
-
+.navigation__link{
   display: block;
-  text-transform: uppercase;
-  text-decoration: none;
+  padding: 25px 0;
+  color: black;
 }
 
-.page-header__title-container {
-  padding-left: 20px;
-  padding-right: 20px;
+.page-header{
+  color: #000000;
+  background-color: $whiteSmoke;
 }
 
-.page-header__title {
-  @include embed-font($sans-light-family, 24px, 29px, $white, normal);
-
-  margin: 0;
+.content__title{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-top: 45px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-align: center;
+  color: #31353e;
 }
+
+.content__description{
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: $Chocolate-Brown;
+}
+//.content__navigation{
+//  width: 770px;
+//
+//  ul{
+//    margin: 0;
+//    padding: 0;
+//    list-style: none;
+//
+//    font-size: 0;
+//  }
+//}
+//.content__navigation-item{
+//  display: inline-block;
+//  margin-right: 40px;
+//  padding-top: 68px;
+//  vertical-align: baseline;
+//
+//  &::last-of-type {
+//    margin-right: 0;
+//  }
+//
+//  a{
+//    font-size: 18px;
+//    line-height: 1.3;
+//    font-weight: 400;
+//    text-decoration: none;
+//    color: #31353e;
+//
+//    &:hover {
+//      color: #dd4b2b;
+//
+//    }
+//  }
+//
+//  &.active {
+//    padding: 15px 30px;
+//    margin-right: 10px;
+//    margin-left: -30px;
+//
+//    background-color: #dd4b2b;
+//    border-radius: 25px;
+//  }
+//
+//  &.active a {
+//    color: #edeff1;
+//  }
+//}
+

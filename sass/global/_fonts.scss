@@ -1,5 +1,8 @@
 @import "mixins";
 
-@include font-face(opensans-light, "../../fonts/opensanslight", null, null, woff woff2);
-@include font-face(opensans-regular, "../../fonts/opensans", null, null, woff woff2);
-@include font-face(opensans-bold, "../../fonts/opensansbold", null, null, woff woff2);
+@include font-face('proximanova-light', "../../fonts/nova-light", null, null, woff);
+@include font-face('proximanova-bold', "../../fonts/nova-bold", null, null, woff);
+@include font-face('Roboto Slab', "../../fonts/robota-light", null, null, woff);
+@include font-face('Roboto Slab regular', "../../fonts/robota-slab-regular", null, null, woff);
+@include font-face('Roboto Slab bold', "../../fonts/robota-slab-bold", null, null, woff);
+@include font-face('Roboto Slab light', "../../fonts/robota-slab-light", null, null, woff);
