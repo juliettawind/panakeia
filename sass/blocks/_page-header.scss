@@ -53,5 +53,16 @@
   }
 }
 
+/* меньше 800px */
+@media all and (max-width: 800px) {
+  .nav { justify-content: space-around; }
+  .nav a{ flex-grow:1; /* растягиваться на всю ширину */ }
+}
+
+/* меньше 500px */
+@media all and (max-width: 500px) {
+  .nav { flex-direction: column; }
+}
+
 
 
