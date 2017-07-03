@@ -1,0 +1,8 @@
+@import "../variables";
+@import "../global/mixins";
+
+.container{
+  min-width: 1200px;
+  background-color: $light-white;
+  margin: 0 auto;
+}

@@ -1,67 +1,73 @@
 @import "../variables";
 @import "../global/mixins";
 
-.page-header{
-  color: #000000;
-  background-color: $whiteSmoke;
+.page-header {
   display: flex;
-  margin: auto;
+  justify-content: space-around;
+  align-content: center;
+  background-color: $light-white;
+  padding-top: 44px;
+  padding-bottom: 44px;
 
 
-  .content__title{
-    flex-direction: column;
-    width: 48%;
-    font-size: 36px;
-    font-weight: 700;
-    color: #31353e;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .content__title {
     padding-top: 10px;
+    margin: 0 0 2px 0;
+    font-size: $beta-size;
+    font-weight: 700;
+    line-height: $beta-size;
+    color: $light-black;
+    font-family: $robota-slab-bold;
 
-    .content__description{
-      font-size: 16px;
-      line-height: 1.2;
-      font-weight: 400;
-      color: $Chocolate-Brown;
-    }
+  }
+
+  .content__description {
+    margin: 0;
+    font-size: $eta-size;
+    color: $dark-orange;
+
   }
 }
 
-.navigation{
-  display: flex;
-  width: 40%;
+.navigation__nav{
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: $light-black;
+  font-family: $robota-slab-regular;
 
-  .navigation__nav {
-    width: 82%;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    .navigation-item {
-      list-style: none;
-      flex-basis: 20.44%;
-      max-width: 21.444%;
+      .navigation__nav-link{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        font-family: "Roboto Slab", Arial, sans-serif;
+        text-decoration: none;
+        padding: 1em;
+        color: #31353e;
 
-      .navigation__link{
-        display: block;
-        padding: 25px 0;
-        color: black;
+
+        &:hover{
+          background-color: $dark-orange;
+          border-radius: 40px;
+          color: $white;
+        }
       }
-    }
-  }
 }
+
 
 /* меньше 800px */
 @media all and (max-width: 800px) {
-  .nav { justify-content: space-around; }
-  .nav a{ flex-grow:1; /* растягиваться на всю ширину */ }
+  .navigation { justify-content: space-around; }
+  .navigation__link{ flex-grow:1; /* растягиваться на всю ширину */ }
 }
 
 /* меньше 500px */
 @media all and (max-width: 500px) {
-  .nav { flex-direction: column; }
+  .navigation { flex-direction: column; }
 }
 
 
