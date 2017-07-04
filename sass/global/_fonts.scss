@@ -1,8 +1,8 @@
 @import "mixins";
 
-@include font-face('proximanova-light', "../../fonts/nova-light", null, null, woff);
-@include font-face('proximanova-bold', "../../fonts/nova-bold", null, null, woff);
-@include font-face('Roboto Slab', "../../fonts/robota-light", null, null, woff);
-@include font-face('Roboto Slab regular', "../../fonts/robota-slab-regular", null, null, woff);
-@include font-face('Roboto Slab bold', "../../fonts/robota-slab-bold", null, null, woff);
-@include font-face('Roboto Slab light', "../../fonts/robota-slab-light", null, null, woff);
+@include font-face('proximanova-light', "../fonts/ProximaNova-Light", null, null, woff);
+@include font-face('proximanova-bold', "../fonts/ProximaNova-Bold", null, null, woff);
+@include font-face('Roboto Slab', "../fonts/Robota-Light", null, null, woff);
+@include font-face('Roboto Slab regular', "../fonts/robotoslabregular", null, null, woff);
+@include font-face('Roboto Slab bold', "../fonts/robotoslabbold", null, null, woff);
+@include font-face('Roboto Slab light', "../fonts/robotoslablight", null, null, woff);

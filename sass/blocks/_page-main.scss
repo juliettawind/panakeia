@@ -1,8 +1,40 @@
 @import "../variables";
 @import "../global/mixins";
 
-.page-main {
+.intro {
   background-image: url("../images/slider-main.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  padding-top: 489px;
+
+
+  .intro__slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    & h1{
+      color: $white;
+      font-family: $robotaslablight;
+      font-size: $alpha-size;
+      margin: 0px 0px 9px 117px;
+    }
+
+    & p{
+      color: $white;
+      font-family: $robotaslabbold;
+      font-size: $gamma-size;
+      margin-top: 0px;
+    }
+  }
+
+
+
+
+  .intro__foods{
+
+
+      .foods__item h1{}
+      .foods__item p{}
+  }
 }
