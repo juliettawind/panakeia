@@ -379,7 +379,7 @@ th {
 
 @font-face {
   font-family: "Roboto Slab";
-  src: url("../fonts/Robota-Light.woff") format("woff"); }
+  src: url("../fonts/Roboto-Light.woff") format("woff"); }
 
 @font-face {
   font-family: "Roboto Slab regular";
@@ -465,7 +465,8 @@ th {
   background-image: url("../images/slider-main.jpg");
   background-repeat: no-repeat;
   padding-top: 489px;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 100px; }
   .intro .intro__slogan {
     display: -ms-flexbox;
     display: flex;
@@ -489,7 +490,8 @@ th {
     -ms-flex-pack: center;
         justify-content: center;
     margin-top: 56px;
-    text-align: center; }
+    text-align: center;
+    list-style: none; }
     .intro .intro__foods .foods__item {
       width: 370px;
       padding-left: 2%;
@@ -507,10 +509,92 @@ th {
         font-family: "Roboto Slab", serif; }
   .intro .intro__btn {
     width: 213px;
-    color: #5b4133;
-    font-size: 18px;
-    margin: 52px 0 58px 64px;
-    font-family: "Roboto Slab regular", serif;
+    color: #4e5159;
+    font-size: 15px;
+    margin: 46px 0 58px 0;
+    font-family: "Roboto Slab", serif;
     background-color: #ffffff;
     border-radius: 40px;
-    padding: 11px 0; }
+    text-decoration: none;
+    padding: 13px 55px; }
+
+.foodNews {
+  text-align: center;
+  padding-bottom: 100px; }
+  .foodNews .news__items {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    margin-top: 56px;
+    list-style: none; }
+    .foodNews .news__items li {
+      width: 22%; }
+    .foodNews .news__items h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+      line-height: 10px;
+      color: black;
+      font-family: "Roboto Slab bold", serif; }
+    .foodNews .news__items p {
+      font-size: 15px;
+      font-family: "Roboto Slab", serif;
+      padding: 0 47px;
+      margin-bottom: 39px; }
+    .foodNews .news__items .intro__btn {
+      width: 213px;
+      color: #4e5159;
+      font-size: 15px;
+      margin: 52px 0 58px 0;
+      font-family: "Roboto Slab", serif;
+      background-color: #ffffff;
+      border-radius: 40px;
+      text-decoration: none;
+      padding: 20px 55px; }
+
+.newsLetter {
+  background-image: url("../images/slider-footer.jpg");
+  text-align: center;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  padding-top: 60px;
+  padding-bottom: 100px; }
+  .newsLetter h2 {
+    font-size: 30px;
+    font-family: "Roboto Slab bold", serif;
+    color: #ffffff; }
+  .newsLetter p {
+    font-size: 15px;
+    font-family: "Roboto Slab", serif;
+    color: #ffffff;
+    padding-bottom: 1%; }
+  .newsLetter form {
+    position: relative;
+    width: 300px;
+    margin: 0 auto; }
+  .newsLetter input {
+    width: 100%;
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    outline: none;
+    background: #f1f2f4;
+    color: #ffffff;
+    font-family: "Roboto Slab regular", serif;
+    font-size: 18px; }
+  .newsLetter button {
+    position: absolute;
+    top: 0px;
+    left: 60%;
+    width: 45%;
+    height: 48px;
+    border: none;
+    background: #ffffff;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #5b4133; }
+    .newsLetter button:before {
+      font-family: "Roboto Slab regular", serif;
+      font-size: 18px;
+      color: #612316; }
