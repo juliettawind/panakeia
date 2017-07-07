@@ -197,9 +197,12 @@
 .product{
   margin-bottom: 50px;
   display: flex;
+  justify-content: center;
 
   &__description {
-    align-self: center;
+    width: 600px;
+    margin-top: 53px;
+    padding-right: 110px;
   }
 
   &--reverse {
@@ -216,7 +219,6 @@
 
   .about{
     margin-bottom: 30px;
-
     font-family: $Roboto-Light;
     font-size: $eta-size;
     color: $light-black;
@@ -244,7 +246,9 @@
   span{
     height: 405px;
     width: 586px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid $very-light-grey;
+    margin-right: 44px;
   }
 
 }
+

@@ -605,11 +605,13 @@ th {
 .product {
   margin-bottom: 50px;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
   .product__description {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center; }
+    width: 600px;
+    margin-top: 53px;
+    padding-right: 110px; }
   .product--reverse {
     -ms-flex-direction: row-reverse;
         flex-direction: row-reverse; }
@@ -638,4 +640,5 @@ th {
   .product span {
     height: 405px;
     width: 586px;
-    border: 1px solid #dbdbdb; }
+    border: 1px solid #dbdbdb;
+    margin-right: 44px; }
