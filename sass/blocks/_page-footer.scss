@@ -1,11 +1,62 @@
 @import "../variables";
 @import "../global/mixins";
 
-//.page-footer {
-//  background-image: url("../images/slider-footer.jpg");
-//  background-repeat: no-repeat;
-//}
-//
-//.copyright{
-//
-//}
+.page-footer {
+}
+
+.list{
+  background-color: $orange;
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+  color: $white;
+
+
+
+  &__footer{
+    width: 370px;
+    text-align: center;
+    text-decoration: none;
+    line-height: $beta-size;
+    font-size: $zeta-size;
+    font-family: $Roboto-Regular;
+    list-style: none;
+
+
+    li{
+
+      &:hover {
+        cursor: pointer;
+        text-decoration: none;
+        color: $dark-blue;
+      }
+
+    }
+
+  }
+}
+.copyright{
+  background-image: url("../images/slider-footer.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 7%;
+
+
+  &__tittle{
+    font-size: $zeta-size;
+    font-family: $ProximaNova-Light;
+    color: $light-white;
+    margin-top: 0px;
+
+
+    a{
+      font-weight: bold;
+      color: $white;
+    }
+
+  }
+}

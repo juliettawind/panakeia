@@ -378,8 +378,12 @@ th {
   src: url("../fonts/ProximaNova-Bold.woff") format("woff"); }
 
 @font-face {
-  font-family: "Roboto Slab";
+  font-family: "Roboto";
   src: url("../fonts/Roboto-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype"); }
 
 @font-face {
   font-family: "Roboto Slab regular";
@@ -599,8 +603,7 @@ th {
       color: #612316; }
 
 .productDetails {
-  margin-top: 65px;
-  margin-bottom: 40px; }
+  margin-top: 65px; }
 
 .product {
   margin-bottom: 50px;
@@ -642,3 +645,46 @@ th {
     width: 586px;
     border: 1px solid #dbdbdb;
     margin-right: 44px; }
+
+.list {
+  background-color: #d75d13;
+  padding: 60px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  color: #ffffff; }
+  .list__footer {
+    width: 370px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 36px;
+    font-size: 18px;
+    font-family: "Roboto Regular", serif;
+    list-style: none; }
+    .list__footer li:hover {
+      cursor: pointer;
+      text-decoration: none;
+      color: #4b4e73; }
+
+.copyright {
+  background-image: url("../images/slider-footer.jpg");
+  background-repeat: no-repeat;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 80px;
+  padding-bottom: 7%; }
+  .copyright__tittle {
+    font-size: 18px;
+    font-family: "proximanova-light", serif;
+    color: #edeff1;
+    margin-top: 0px; }
+    .copyright__tittle a {
+      font-weight: bold;
+      color: #ffffff; }
