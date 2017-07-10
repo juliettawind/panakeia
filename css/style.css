@@ -410,20 +410,22 @@ th {
   -ms-flex-line-pack: center;
       align-content: center;
   background-color: #edeff1;
-  padding-top: 44px;
-  padding-bottom: 44px; }
+  padding: 43px 237px; }
   .page-header .content__title {
-    padding-top: 10px;
-    margin: 0 0 2px 0;
+    padding-top: 3px;
     font-size: 36px;
     font-weight: 700;
     line-height: 36px;
     color: #191b29;
-    font-family: "Roboto Slab bold", serif; }
+    font-family: "Roboto Slab bold", serif;
+    margin: 0; }
   .page-header .content__description {
     margin: 0;
     font-size: 16px;
-    color: #dd4b2b; }
+    color: #dd4b2b;
+    font-family: "Roboto Slab regular", serif;
+    margin-left: 2px;
+    letter-spacing: 1px; }
 
 .navigation__nav {
   display: -ms-inline-flexbox;
@@ -468,21 +470,26 @@ th {
 .intro {
   background-image: url("../images/slider-main.jpg");
   background-repeat: no-repeat;
-  padding-top: 489px;
+  padding-top: 298px;
   text-align: center;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  background-size: 100%; }
   .intro .intro__slogan {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
         flex-direction: column;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    margin-bottom: 77px;
+    margin-top: 86px; }
     .intro .intro__slogan h1 {
       color: #ffffff;
       font-family: "Roboto Slab light", serif;
       font-size: 72px;
-      margin: 0px 0px 9px 117px; }
+      font-weight: 300;
+      letter-spacing: -2px;
+      margin-bottom: 5px; }
     .intro .intro__slogan p {
       color: #ffffff;
       font-family: "Roboto Slab bold", serif;
@@ -493,7 +500,6 @@ th {
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    margin-top: 56px;
     text-align: center;
     list-style: none; }
     .intro .intro__foods .foods__item {
@@ -510,39 +516,46 @@ th {
         font-size: 15px;
         line-height: 30px;
         color: #ffffff;
-        font-family: "Roboto Slab", serif; }
+        font-family: "Roboto Light", serif; }
   .intro .intro__btn {
     width: 213px;
     color: #4e5159;
     font-size: 15px;
-    margin: 46px 0 58px 0;
-    font-family: "Roboto Slab", serif;
+    margin: 33px 0 58px 0;
+    font-family: "Roboto Light", serif;
     background-color: #ffffff;
     border-radius: 40px;
     text-decoration: none;
     padding: 13px 55px; }
+    .intro .intro__btn:hover {
+      color: #ffffff;
+      background-color: #d75d13; }
 
 .foodNews {
   text-align: center;
   padding-bottom: 100px; }
+  .foodNews p {
+    font-size: 30px;
+    margin: 40px 0; }
   .foodNews .news__items {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: center;
         justify-content: center;
-    margin-top: 56px;
-    list-style: none; }
+    margin-top: 77px;
+    list-style: none;
+    margin-right: 46px; }
     .foodNews .news__items li {
-      width: 22%; }
+      width: 23%; }
     .foodNews .news__items h1 {
-      font-size: 24px;
       margin-bottom: 15px;
       line-height: 10px;
       color: black;
-      font-family: "Roboto Slab bold", serif; }
+      font-family: "Roboto Slab bold", serif;
+      font-size: 24px; }
     .foodNews .news__items p {
       font-size: 15px;
-      font-family: "Roboto Slab", serif;
+      font-family: "Roboto Light", serif;
       padding: 0 47px;
       margin-bottom: 39px; }
     .foodNews .news__items .intro__btn {
@@ -550,11 +563,14 @@ th {
       color: #4e5159;
       font-size: 15px;
       margin: 52px 0 58px 0;
-      font-family: "Roboto Slab", serif;
+      font-family: "Roboto Light", serif;
       background-color: #ffffff;
       border-radius: 40px;
       text-decoration: none;
       padding: 20px 55px; }
+      .foodNews .news__items .intro__btn:hover {
+        color: #ffffff;
+        background-color: #d75d13; }
 
 .newsLetter {
   background-image: url("../images/slider-footer.jpg");
@@ -567,7 +583,7 @@ th {
     color: #ffffff; }
   .newsLetter p {
     font-size: 15px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto Light", serif;
     color: #ffffff;
     padding-bottom: 1%; }
   .newsLetter form {
@@ -601,6 +617,9 @@ th {
       font-family: "Roboto Slab regular", serif;
       font-size: 18px;
       color: #612316; }
+    .newsLetter button:hover {
+      color: #ffffff;
+      background-color: #d75d13; }
 
 .productDetails {
   margin-top: 65px; }
@@ -625,7 +644,7 @@ th {
     color: #191b29; }
   .product .about {
     margin-bottom: 30px;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto Light", serif;
     font-size: 16px;
     color: #191b29; }
   .product__btn {
@@ -636,6 +655,8 @@ th {
     text-decoration: none;
     border-radius: 40px;
     padding: 13px 70px; }
+    .product__btn:hover {
+      opacity: 0.7; }
     .product__btn--orange {
       background-color: #d75d13; }
     .product__btn--blue {

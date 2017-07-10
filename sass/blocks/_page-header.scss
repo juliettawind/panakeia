@@ -6,18 +6,17 @@
   justify-content: space-around;
   align-content: center;
   background-color: $light-white;
-  padding-top: 44px;
-  padding-bottom: 44px;
+  padding: 43px 237px;
 
 
   .content__title {
-    padding-top: 10px;
-    margin: 0 0 2px 0;
+    padding-top: 3px;
     font-size: $beta-size;
     font-weight: 700;
     line-height: $beta-size;
     color: $light-black;
     font-family: $robotaslabbold;
+    margin:0;
 
   }
 
@@ -25,6 +24,9 @@
     margin: 0;
     font-size: $eta-size;
     color: $dark-orange;
+    font-family: $robotaslabregular;
+    margin-left: 2px;
+    letter-spacing: 1px;
 
   }
 }
@@ -51,11 +53,12 @@
 
 
         &:hover{
-          background-color: $dark-orange;
+          background-color: #dd4b2b;
           border-radius: 40px;
-          color: $white;
+          color: #ffffff;
         }
       }
+
 }
 
 

@@ -4,22 +4,27 @@
 .intro {
   background-image: url("../images/slider-main.jpg");
   background-repeat: no-repeat;
-  padding-top: 489px;
+  padding-top: 298px;
   text-align: center;
   padding-bottom: 100px;
+  background-size: 100%;
 
 
   .intro__slogan{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 77px;
+    margin-top: 86px;
 
 
     & h1{
       color: $white;
       font-family: $robotaslablight;
       font-size: $alpha-size;
-      margin: 0px 0px 9px 117px;
+      font-weight: 300;
+      letter-spacing: -2px;
+      margin-bottom: 5px;
     }
 
     & p{
@@ -36,9 +41,9 @@
   .intro__foods{
     display: flex;
     justify-content: center;
-    margin-top: 56px;
     text-align: center;
     list-style: none;
+
 
       .foods__item {
         width: 370px;
@@ -68,12 +73,17 @@
     width: 213px;
     color: $grey;
     font-size: $theta-size;
-    margin: 46px 0 58px 0;
+    margin: 33px 0 58px 0;
     font-family: $Roboto-Light;
     background-color: $white;
     border-radius: 40px;
     text-decoration: none;
     padding: 13px 55px;
+
+    &:hover{
+      color: $white;
+      background-color: $orange;
+    }
 
   }
 }
@@ -82,23 +92,29 @@
   text-align: center;
   padding-bottom: 100px;
 
+  & p{
+    font-size: $gamma-size;
+    margin: 40px 0;
+  }
+
   .news__items{
     display: flex;
     justify-content: center;
-    margin-top: 56px;
+    margin-top: 77px;
     list-style: none;
+    margin-right: 46px;
 
 
     & li{
-      width: 22%;
+      width: 23%;
     }
 
     & h1{
-      font-size: $delta-size;
       margin-bottom: 15px;
       line-height: 10px;
       color: black;
       font-family: $robotaslabbold;
+      font-size: $delta-size;
     }
 
     & p{
@@ -118,6 +134,12 @@
       border-radius: 40px;
       text-decoration: none;
       padding: 20px 55px;
+
+
+      &:hover{
+        color: $white;
+        background-color: $orange;
+      }
 
 
     }
@@ -184,6 +206,11 @@
       font-size: $zeta-size;
       color: #612316;
     }
+
+    &:hover{
+      color: $white;
+      background-color: $orange;
+    }
   }
 
 }
@@ -232,6 +259,10 @@
     text-decoration: none;
     border-radius: 40px;
     padding: 13px 70px;
+
+    &:hover{
+      opacity: 0.7;
+    }
 
     &--orange{
       background-color: $orange;
