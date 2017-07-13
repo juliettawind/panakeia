@@ -1,0 +1,172 @@
+@import "variables";
+@import "global/mixins";
+
+// Media queries
+$desktop: 1200px;
+$tablet: 768px;
+$mobile: 320px;
+
+
+/*** Адаптивность ***/
+@media screen and (max-width: $mobile) {
+  .page-header {
+    padding:0;
+
+
+
+  }
+
+  .intro{
+
+
+      &__slogan h1{
+        font-size: 18px;
+        margin-top:5%;
+
+      }
+
+
+
+
+
+    .intro__foods{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      list-style: none;
+      align-items: center;
+
+
+      .foods__item{
+
+
+        p{
+          display: none;
+        }
+
+
+      }
+    }
+  }
+
+  .foodNews{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+    position: relative;
+    min-height: 1px;
+
+    p {
+      text-align: center;
+      color: #31353e;
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .news__items{
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      width: auto;
+
+      li{
+        padding-bottom: 5%;
+      }
+
+      .news__items-img{
+        width: auto;
+        margin-bottom: 20px;
+        order: 2;
+
+      }
+
+      & h1{
+
+
+      }
+
+      & p{
+        //display: none;
+      }
+
+      .intro__btn{
+        order: 3;
+      }
+
+
+    }
+  }
+
+  .newsLetter{
+    //padding-left: 15px;
+    //padding-right: 15px;
+
+     p, form{
+      width: 100%;
+    }
+  }
+  .product {
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    &__description{
+
+    }
+
+    .name{
+      padding-top: 20px;
+
+    }
+
+    .about{
+      line-height: 30px;
+    }
+
+    &__btn{
+      margin-bottom: 60px;
+    }
+
+    &__window{
+      width: 100%;
+      margin-top: 37px;
+      height: 100%;
+    }
+
+    &--reverse {
+      flex-direction: column;
+
+    }
+
+
+  }
+
+
+  .list{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &__footer{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 50%;
+
+
+
+      li{
+        border-bottom: 1px solid #747474;
+        //margin-right: 30px;
+        //width: 50%;
+
+
+      }
+    }
+  }
+
+  .copyright{
+    padding-top: 80px;
+    padding-bottom: 7%;
+  }
+
+}

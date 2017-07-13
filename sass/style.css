@@ -369,26 +369,24 @@ td,
 th {
   padding: 0; }
 
-/*** Адаптивность ***/
+/*** ╨Р╨┤╨░╨┐╤В╨╕╨▓╨╜╨╛╤Б╤В╤М ***/
 @media screen and (max-width: 320px) {
   .page-header {
     padding: 0; }
+
   .intro__slogan h1 {
     font-size: 18px;
     margin-top: 5%; }
   .intro .intro__foods {
-    -ms-flex-direction: column;
-        flex-direction: column;
-    display: -ms-flexbox;
+    flex-direction: column;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
     text-align: center;
     list-style: none;
-    -ms-flex-align: center;
-        align-items: center; }
+    align-items: center; }
     .intro .intro__foods .foods__item p {
       display: none; }
+
   .foodNews {
     padding-right: 15px;
     padding-left: 15px;
@@ -401,11 +399,8 @@ th {
       font-size: 12px;
       font-weight: 700; }
     .foodNews .news__items {
-      -ms-flex-direction: column;
-          flex-direction: column;
-      -ms-flex-align: center;
-          align-items: center;
-      display: -ms-flexbox;
+      flex-direction: column;
+      align-items: center;
       display: flex;
       width: auto; }
       .foodNews .news__items li {
@@ -413,16 +408,15 @@ th {
       .foodNews .news__items .news__items-img {
         width: auto;
         margin-bottom: 20px;
-        -ms-flex-order: 2;
-            order: 2; }
+        order: 2; }
       .foodNews .news__items .intro__btn {
-        -ms-flex-order: 3;
-            order: 3; }
+        order: 3; }
+
   .newsLetter p, .newsLetter form {
     width: 100%; }
+
   .product {
-    -ms-flex-direction: column;
-        flex-direction: column;
+    flex-direction: column;
     margin-bottom: 30px; }
     .product .name {
       padding-top: 20px; }
@@ -435,53 +429,43 @@ th {
       margin-top: 37px;
       height: 100%; }
     .product--reverse {
-      -ms-flex-direction: column;
-          flex-direction: column; }
+      flex-direction: column; }
+
   .list {
     padding-top: 20px;
     padding-bottom: 20px; }
     .list__footer {
-      display: -ms-flexbox;
       display: flex;
-      -ms-flex-direction: row;
-          flex-direction: row;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+      flex-direction: row;
+      flex-wrap: wrap;
       width: 50%; }
       .list__footer li {
         border-bottom: 1px solid #747474; }
+
   .copyright {
     padding-top: 80px;
     padding-bottom: 7%; } }
-
 @font-face {
   font-family: "proximanova-light";
   src: url("../fonts/ProximaNova-Light.woff") format("woff"); }
-
 @font-face {
   font-family: "proximanova-bold";
   src: url("../fonts/ProximaNova-Bold.woff") format("woff"); }
-
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Light.woff") format("woff"); }
-
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular.ttf") format("truetype"); }
-
 @font-face {
   font-family: "Roboto Slab regular";
   src: url("../fonts/robotoslabregular.woff") format("woff"); }
-
 @font-face {
   font-family: "Roboto Slab bold";
   src: url("../fonts/robotoslabbold.woff") format("woff"); }
-
 @font-face {
   font-family: "Roboto Slab light";
   src: url("../fonts/robotoslablight.woff") format("woff"); }
-
 body {
   width: 100%;
   height: 100%;
@@ -495,12 +479,9 @@ body {
   margin: 0 auto; }
 
 .page-header {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  justify-content: space-around;
+  align-content: center;
   background-color: #edeff1;
   padding: 43px 237px; }
   .page-header .content__title {
@@ -520,10 +501,8 @@ body {
     letter-spacing: 1px; }
 
 .navigation__nav {
-  display: -ms-inline-flexbox;
   display: inline-flex;
-  -ms-flex-align: center;
-      align-items: center;
+  align-items: center;
   list-style: none;
   text-align: center;
   margin: 0;
@@ -543,22 +522,18 @@ body {
       border-radius: 40px;
       color: #ffffff; }
 
-/* меньше 800px */
+/* ╨╝╨╡╨╜╤М╤И╨╡ 800px */
 @media all and (max-width: 800px) {
   .navigation {
-    -ms-flex-pack: distribute;
-        justify-content: space-around; }
-  .navigation__link {
-    -ms-flex-positive: 1;
-        flex-grow: 1;
-    /* растягиваться на всю ширину */ } }
+    justify-content: space-around; }
 
-/* меньше 500px */
+  .navigation__link {
+    flex-grow: 1;
+    /* ╤А╨░╤Б╤В╤П╨│╨╕╨▓╨░╤В╤М╤Б╤П ╨╜╨░ ╨▓╤Б╤О ╤И╨╕╤А╨╕╨╜╤Г */ } }
+/* ╨╝╨╡╨╜╤М╤И╨╡ 500px */
 @media all and (max-width: 500px) {
   .navigation {
-    -ms-flex-direction: column;
-        flex-direction: column; } }
-
+    flex-direction: column; } }
 .intro {
   background-image: url("../images/slider-main.jpg");
   background-repeat: no-repeat;
@@ -568,12 +543,9 @@ body {
   padding-top: 10%;
   padding-bottom: 10%; }
   .intro .intro__slogan {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 77px; }
     .intro .intro__slogan h1 {
       color: #ffffff;
@@ -588,10 +560,8 @@ body {
       font-size: 30px;
       margin-top: 0px; }
   .intro .intro__foods {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
     text-align: center;
     list-style: none; }
     .intro .intro__foods .foods__item {
@@ -630,10 +600,8 @@ body {
     font-size: 30px;
     margin: 40px 0; }
   .foodNews .news__items {
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
+    justify-content: center;
     list-style: none; }
     .foodNews .news__items li {
       width: 340px;
@@ -670,12 +638,9 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
+  flex-direction: column;
+  align-items: center;
   text-align: center; }
   .newsLetter h2 {
     font-size: 30px;
@@ -727,17 +692,14 @@ body {
 
 .product {
   margin-bottom: 50px;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
+  justify-content: center; }
   .product__description {
     width: 600px;
     margin-top: 53px;
     padding-right: 110px; }
   .product--reverse {
-    -ms-flex-direction: row-reverse;
-        flex-direction: row-reverse; }
+    flex-direction: row-reverse; }
   .product .name {
     margin-top: 0;
     font-family: "Roboto Slab bold", serif;
@@ -770,10 +732,8 @@ body {
 
 .list {
   background-color: #d75d13;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
+  justify-content: center;
   color: #ffffff;
   width: 100%; }
   .list__footer {
@@ -782,12 +742,9 @@ body {
     font-size: 18px;
     font-family: "Roboto Regular", serif;
     list-style: none;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-align: center;
-        align-items: center;
+    flex-direction: column;
+    align-items: center;
     padding: 50px 0; }
     .list__footer li:hover {
       cursor: pointer;
@@ -797,14 +754,10 @@ body {
 .copyright {
   background-image: url("../images/slider-footer.jpg");
   background-repeat: no-repeat;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  -ms-flex-align: center;
-      align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 90px;
   padding-bottom: 200px;
   background-position: 50%;
@@ -817,3 +770,5 @@ body {
     .copyright__tittle a {
       font-weight: bold;
       color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
