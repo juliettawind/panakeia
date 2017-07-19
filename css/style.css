@@ -371,12 +371,7 @@ th {
 
 /*** Адаптивность ***/
 @media screen and (max-width: 320px) {
-  .page-header {
-    padding: 0; }
-  .intro__slogan h1 {
-    font-size: 18px;
-    margin-top: 5%; }
-  .intro .intro__foods {
+  .intro__foods {
     -ms-flex-direction: column;
         flex-direction: column;
     display: -ms-flexbox;
@@ -387,20 +382,20 @@ th {
     list-style: none;
     -ms-flex-align: center;
         align-items: center; }
-    .intro .intro__foods .foods__item p {
+    .intro__foods__item p {
       display: none; }
-  .foodNews {
+  .intro .foodNews {
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 50px;
     position: relative;
     min-height: 1px; }
-    .foodNews p {
+    .intro .foodNews p {
       text-align: center;
       color: #31353e;
       font-size: 12px;
       font-weight: 700; }
-    .foodNews .news__items {
+    .intro .foodNews .news__items {
       -ms-flex-direction: column;
           flex-direction: column;
       -ms-flex-align: center;
@@ -408,33 +403,33 @@ th {
       display: -ms-flexbox;
       display: flex;
       width: auto; }
-      .foodNews .news__items li {
+      .intro .foodNews .news__items li {
         padding-bottom: 5%; }
-      .foodNews .news__items .news__items-img {
+      .intro .foodNews .news__items .news__items-img {
         width: auto;
         margin-bottom: 20px;
         -ms-flex-order: 2;
             order: 2; }
-      .foodNews .news__items .intro__btn {
+      .intro .foodNews .news__items .intro__btn {
         -ms-flex-order: 3;
             order: 3; }
-  .newsLetter p, .newsLetter form {
+  .intro .newsLetter p, .intro .newsLetter form {
     width: 100%; }
-  .product {
+  .intro .product {
     -ms-flex-direction: column;
         flex-direction: column;
     margin-bottom: 30px; }
-    .product .name {
+    .intro .product .name {
       padding-top: 20px; }
-    .product .about {
+    .intro .product .about {
       line-height: 30px; }
-    .product__btn {
+    .intro .product__btn {
       margin-bottom: 60px; }
-    .product__window {
+    .intro .product__window {
       width: 100%;
       margin-top: 37px;
       height: 100%; }
-    .product--reverse {
+    .intro .product--reverse {
       -ms-flex-direction: column;
           flex-direction: column; }
   .list {
