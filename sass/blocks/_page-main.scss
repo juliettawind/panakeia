@@ -70,24 +70,6 @@
 
       }
   }
-
-  .intro__btn{
-    width: 213px;
-    color: $grey;
-    font-size: $theta-size;
-    margin: 33px 0 58px 0;
-    font-family: $Roboto-Light;
-    background-color: $white;
-    border-radius: 40px;
-    text-decoration: none;
-    padding: 13px 55px;
-
-    &:hover{
-      color: $white;
-      background-color: $orange;
-    }
-
-  }
 }
 
 .foodNews{
@@ -126,27 +108,6 @@
       padding: 0 47px;
       margin-bottom: 39px;
     }
-
-    .intro__btn{
-      width: 213px;
-      color: $grey;
-      font-size: $theta-size;
-      margin: 52px 0 58px 0;
-      font-family: $Roboto-Light;
-      background-color: $white;
-      border-radius: 40px;
-      text-decoration: none;
-      padding: 20px 55px;
-
-
-      &:hover{
-        color: $white;
-        background-color: $orange;
-      }
-
-
-    }
-
   }
 }
 
@@ -198,32 +159,8 @@
     font-family: $robotaslabregular;
     font-size: $zeta-size;
     opacity: 0.35;
+    color: $orange;
   }
-
-  button {
-    position: absolute;
-    top: 40px;
-    left: 60%;
-    width: 46%;
-    height: 48px;
-    border: none;
-    background: $white;
-    border-radius: 40px;
-    cursor: pointer;
-    color: $dark-brown;
-
-    &:before {
-      font-family: $robotaslabregular;
-      font-size: $zeta-size;
-      color: #612316;
-    }
-
-    &:hover{
-      color: $white;
-      background-color: $orange;
-    }
-  }
-
 }
 
 .productDetails{

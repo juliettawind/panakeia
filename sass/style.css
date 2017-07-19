@@ -478,6 +478,53 @@ body {
   background-color: #edeff1;
   margin: 0 auto; }
 
+.intro__btn {
+  width: 213px;
+  color: #4e5159;
+  font-size: 15px;
+  margin: 33px 0 58px 0;
+  font-family: "Roboto Light", serif;
+  background-color: #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 13px 55px; }
+  .intro__btn:hover {
+    color: #ffffff;
+    background-color: #d75d13; }
+
+.foodNews__btn {
+  width: 213px;
+  color: #4e5159;
+  font-size: 15px;
+  margin: 52px 0 58px 0;
+  font-family: "Roboto Light", serif;
+  background-color: #ffffff;
+  border-radius: 40px;
+  text-decoration: none;
+  padding: 20px 55px; }
+  .foodNews__btn:hover {
+    color: #ffffff;
+    background-color: #d75d13; }
+
+.email__btn {
+  position: absolute;
+  top: 40px;
+  left: 60%;
+  width: 46%;
+  height: 48px;
+  border: none;
+  background: #ffffff;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #5b4133; }
+  .email__btn:before {
+    font-family: "Roboto Slab regular", serif;
+    font-size: 18px;
+    color: #612316; }
+  .email__btn:hover {
+    color: #ffffff;
+    background-color: #d75d13; }
+
 .page-header {
   display: flex;
   justify-content: space-around;
@@ -579,19 +626,6 @@ body {
         line-height: 30px;
         color: #ffffff;
         font-family: "Roboto Light", serif; }
-  .intro .intro__btn {
-    width: 213px;
-    color: #4e5159;
-    font-size: 15px;
-    margin: 33px 0 58px 0;
-    font-family: "Roboto Light", serif;
-    background-color: #ffffff;
-    border-radius: 40px;
-    text-decoration: none;
-    padding: 13px 55px; }
-    .intro .intro__btn:hover {
-      color: #ffffff;
-      background-color: #d75d13; }
 
 .foodNews {
   text-align: center;
@@ -618,19 +652,6 @@ body {
       font-family: "Roboto Light", serif;
       padding: 0 47px;
       margin-bottom: 39px; }
-    .foodNews .news__items .intro__btn {
-      width: 213px;
-      color: #4e5159;
-      font-size: 15px;
-      margin: 52px 0 58px 0;
-      font-family: "Roboto Light", serif;
-      background-color: #ffffff;
-      border-radius: 40px;
-      text-decoration: none;
-      padding: 20px 55px; }
-      .foodNews .news__items .intro__btn:hover {
-        color: #ffffff;
-        background-color: #d75d13; }
 
 .newsLetter {
   background-image: url("../images/slider-footer.jpg");
@@ -667,25 +688,8 @@ body {
     background: #f1f2f4;
     font-family: "Roboto Slab regular", serif;
     font-size: 18px;
-    opacity: 0.35; }
-  .newsLetter button {
-    position: absolute;
-    top: 40px;
-    left: 60%;
-    width: 46%;
-    height: 48px;
-    border: none;
-    background: #ffffff;
-    border-radius: 40px;
-    cursor: pointer;
-    color: #5b4133; }
-    .newsLetter button:before {
-      font-family: "Roboto Slab regular", serif;
-      font-size: 18px;
-      color: #612316; }
-    .newsLetter button:hover {
-      color: #ffffff;
-      background-color: #d75d13; }
+    opacity: 0.35;
+    color: #d75d13; }
 
 .productDetails {
   margin-top: 65px; }
